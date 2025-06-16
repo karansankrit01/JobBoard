@@ -1,0 +1,78 @@
+.postjob-container {
+  max-width: 500px;
+  margin: 2.5rem auto;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.postjob-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #3182ce;
+}
+
+.postjob-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.postjob-input, .postjob-textarea {
+  padding: 0.7rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 1rem;
+  background: #f7fafc;
+  transition: border 0.18s;
+}
+
+.postjob-input:focus, .postjob-textarea:focus {
+  border: 1.5px solid #3182ce;
+  outline: none;
+  background: #fff;
+}
+
+.postjob-textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.postjob-button {
+  background: #3182ce;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.8rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+.postjob-button:hover {
+  background: #2563eb;
+}
+
+.postjob-error {
+  color: #e53e3e;
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: -0.7rem;
+  font-size: 0.98rem;
+}
+
+.postjob-success {
+  color: #38a169;
+  background: #f0fff4;
+  border: 1px solid #68d391;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+} 
